@@ -1,0 +1,84 @@
+body {
+    background: url(image.jpg);
+    background-position: top;
+    background-size: auto;  
+}
+@font-face {
+    font-family: "FirstFont";
+    src: url(STARWARS.ttf);
+}
+@font-face {
+    font-family: "SecondFont";
+    src: url(SecondFont.ttf);
+}
+@font-face {
+    font-family: "ThirdFont";
+    src: url(ThirdFont.ttf);
+}
+h1{
+    width: 150px;
+    height: 170px;
+    color:greenyellow;
+    font-family: "FirstFont";
+    margin-top: 250px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 150px;   
+}
+.character_name {
+    color:greenyellow;
+    transition: all 0,5s;
+    font-family: "SecondFont";
+    margin-left: 35px;
+}
+.character_gender{
+    color:white;
+    transition: all 0,5s;
+    font-family: "ThirdFont" ;
+    margin-left: 10px;
+
+}
+.character_birth{
+    color:white;
+    transition: all 0,5s;
+    font-family: ThirdFont;
+    margin-left: 45px;
+}
+.planet_name{
+    color:greenyellow;
+    transition: all 0,5s;  
+    font-family: SecondFont;
+    margin-left: 40px;
+}
+
+button {
+	height: 50px;
+    width: 150px;
+    position: center;
+    border: 2px solid ;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border-color: greenyellow;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-family: "ThirdFont";
+}
+input{
+    border: 2px solid ;
+    color: greenyellow;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container{
+    margin: 0 auto;
+    max-width: fit-content;
+}
+.infoContainer{
+    margin-top: 150px;
+    max-width: min-content;
+}
+
+
+ 
